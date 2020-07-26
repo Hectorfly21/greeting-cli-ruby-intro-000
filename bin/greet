@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
- it 'greeting method' do
- puts "Hi!I'm HAL, what's your name?"
+
+ descirbe 'greeting method'
+it "calls on the #greeting method with an argument of the user's name"
+ puts "Hi! I'm HAL, what's your name?"
  name = gets.strip
+ 
 end
